@@ -3,10 +3,12 @@ import logo from './logo.svg';
 import './App.css';
 import { Row } from './Row';
 import { requests } from './request';
+import { Nav } from './Nav';
 
 function App() {
   return (
     <div className="App">
+      <Nav></Nav>
       <Row
         title="NETFLIX ORIGUINALS"
         fetchUrl={requests.feachNetflixOriginals}
