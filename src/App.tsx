@@ -4,11 +4,14 @@ import './App.css';
 import { Row } from './Row';
 import { requests } from './request';
 import { Nav } from './Nav';
+import { Counter } from './Counter';
 
 function App() {
   return (
     <div className="App">
-      <Nav></Nav>
+      {/* <Nav></Nav> */}
+      <Counter></Counter>
+      <Counter></Counter>
       <Row
         title="NETFLIX ORIGUINALS"
         fetchUrl={requests.feachNetflixOriginals}
