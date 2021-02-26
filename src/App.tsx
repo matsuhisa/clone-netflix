@@ -1,6 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 import { Row } from './Row';
 import { requests } from './request';
 import { Nav } from './Nav';
@@ -10,7 +8,7 @@ import { Counter2nd } from './containers/Counter2nd';
 function App() {
   return (
     <div className="App">
-      {/* <Nav></Nav> */}
+      <Nav></Nav>
       <Counter2nd></Counter2nd>
       <Counter></Counter>
       <Row
